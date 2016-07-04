@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>HPG Angular Seed</title>
+    <title>My Angular Seed</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- build:css(.tmp) web/assets/css/app.css -->
@@ -13,8 +13,6 @@
     <div class="app-container" ng-view=""></div>
 
     <!-- build:js({.,app}) web/scripts/bootstrap.js -->
-
-    <script src="scripts/initialize.js"></script>
     <!-- endbuild -->
 
     <!-- build:js({.,app}) web/scripts/vendor.js -->
