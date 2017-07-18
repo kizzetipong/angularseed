@@ -54,3 +54,7 @@ app.get('/service/:serviceName', serviceCtrl.get);
 app.post(rootUrl + '/service/:serviceName', serviceCtrl.post);
 app.get(rootUrl + '/service/:serviceName', serviceCtrl.get);
 
+app.all('/*', function (req, res) {
+  // Just send the index.html for other files to support HTML5Mode
+  res.sendFile('index.html', { root: path });
+});
